@@ -1,3 +1,30 @@
+# Samples backend java
+
+Este projeto tem o intuito simular operações de banco.
+
+As tecnologias envolvidas desejáveis são:
+ - JAVA 11 
+ - JUnit;
+ - Maven;
+ - Banco de dados H2, afim de facilitar testes;
+ - Lombok
+ - Flyway
+
+
+## Acesso
+Para acesso ao Swagger do projeto acesse http://localhost:8080/
+
+## Orientações Gerais
+O projeto está dividido entre: 
+/conta
+/pessoa
+/transacao
+Cada um possuindo um save e busca para a entidade, foi mantido findAll, porem sabe-se que eles não seriam usados em produção, é apenas uma liberdade para facilitar os testes.
+
+## FInalização
+Qualquer duvida entrar em contato, meus dados se encontram na tela inicial do swagger do projeto.
+Os dados do antigo Read-me estão abaixo, caso seja de alguma forma necessário.
+
 
 ### Desafio Dock Tech de Seleção 
 Olá, queremos convidá-lo a participar de nosso desafio de seleção.  Pronto para participar? Seu trabalho será visto por nosso time e você receberá ao final um feedback sobre o que achamos do seu trabalho. Não é legal?
